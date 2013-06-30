@@ -48,7 +48,7 @@ public class Player {
 		return items;
 	}
 
-	public void move() {
+	public void move(Location location) {
 		
 	}
 }

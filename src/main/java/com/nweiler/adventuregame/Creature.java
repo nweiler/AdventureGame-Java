@@ -2,8 +2,17 @@ package com.nweiler.adventuregame;
 
 public class Creature implements Actor {
 
+	private String name;
 	private String type;
 	private int health;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 	public String getType() {
 		return type;
@@ -19,5 +28,9 @@ public class Creature implements Actor {
 	
 	public void setHealth(int health) {
 		this.health = health;
+	}
+	
+	public void move(Location room) {
+		
 	}
 }

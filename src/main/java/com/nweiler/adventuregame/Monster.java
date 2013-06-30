@@ -1,6 +1,6 @@
 package com.nweiler.adventuregame;
 
-public class Monster implements Actor{
+public class Monster implements Actor {
 
 	private String name;
 	private String type;
@@ -12,11 +12,19 @@ public class Monster implements Actor{
 		this.health = health;
 	}
 	
-	public void move() {
-		
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public int attack() {
 		return 10;
+	}
+	
+	public void move(Location location) {
+		
 	}
 }
