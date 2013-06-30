@@ -1,6 +1,8 @@
 package com.nweiler.adventuregame;
 
 import java.util.*;
+import junit.framework.*;
+
 
 public class GameInstance {
 

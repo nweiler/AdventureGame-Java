@@ -2,7 +2,7 @@ package com.nweiler.adventuregame;
 
 import java.util.*;
 
-public interface Location {
+public abstract class LocationDecorator implements Location {
 
 	public abstract void addNeighbor(Location location, Direction direction);
 	public abstract void removeNeighbor(Location location, Direction direction);
