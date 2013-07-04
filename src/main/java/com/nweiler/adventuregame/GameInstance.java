@@ -1,8 +1,6 @@
 package com.nweiler.adventuregame;
 
 import java.util.*;
-import junit.framework.*;
-
 
 public class GameInstance {
 
@@ -260,6 +258,6 @@ public class GameInstance {
 
         // TODO TerrainPrinter.getInstance().print(dropZone);
 
-        //player.Explore(dropZone);
+        player.explore(dropZone);
 	}
 }
