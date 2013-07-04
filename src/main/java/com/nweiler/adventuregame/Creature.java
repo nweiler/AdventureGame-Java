@@ -6,6 +6,11 @@ public class Creature implements Actor {
 	private String type;
 	private int health;
 	
+	public Creature(String type, int health) {
+		this.type = type;
+		this.health = health;
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -20,6 +20,22 @@ public class Monster implements Actor {
 		this.name = name;
 	}
 	
+	public String getType() {
+		return type;
+	}
+	
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	public int getHealth() {
+		return health;
+	}
+	
+	public void setHealth(int health) {
+		this.health = health;
+	}
+	
 	public int attack() {
 		return 10;
 	}
